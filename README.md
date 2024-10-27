@@ -1,7 +1,7 @@
-#Data-oplossing voor CRUNCHR Airlines - Piloten Tekort
+# Data-oplossing voor CRUNCHR Airlines - Piloten Tekort
 Dit is de repository met de data-oplossing voor het businessprobleem van CRUNCHR Airlines: het tekort aan piloten. Deze oplossing bevat verschillende notebooks die de data-analyse, machine learning-modellen en voorspellingen documenteren en toelichten. Door deze opzet is het onderzoek reproduceerbaar en kan de analyse eenvoudig worden herhaald of verder worden uitgebreid.
 
-Inhoud van de Repository
+# Inhoud van de Repository
 Piloten.ipynb
 In dit notebook wordt de eerste verkenning van de data uitgevoerd. Het bevat een uitgebreide data-exploratie, statistische analyse en visualisaties specifiek gericht op de pilotenpopulatie binnen CRUNCHR Airlines. Dit notebook biedt inzicht in de trends en patronen die relevant zijn voor het businessprobleem. Daarnaast worden datacleaning- en balancingtechnieken toegepast om de data klaar te maken voor verdere analyses.
 
@@ -15,7 +15,7 @@ Voorspelde_leavers.ipynb
 Dit notebook berekent voor elke maand per medewerker hoeveel maanden het duurt voordat zij de organisatie verlaten. Een DecisionTreeRegressor is getraind op de data van vertrokken werknemers, met het doel om dit model toe te passen op medewerkers die nog bij de organisatie zijn. Het notebook bevat een toelichting op de keuze voor de DecisionTreeRegressor, evenals een analyse met behulp van SHAP-waarden om de invloed van variabelen op de uitkomst van het model te begrijpen. Daarnaast wordt de keuze voor SHAP boven de LIME-methode toegelicht.
 
 
-#Reproduceerbaarheid
+# Reproduceerbaarheid
 Om deze analyse te reproduceren, volg de onderstaande stappen:
 
 Clone de repository
@@ -43,5 +43,5 @@ shap (indien je de SHAP-analyse wilt uitvoeren)
 Open en voer de notebooks uit
 Open de notebooks in Jupyter Notebook of JupyterLab en voer ze stap voor stap uit. Dit zorgt ervoor dat alle analyses en modellen opnieuw worden berekend, wat de reproduceerbaarheid waarborgt.
 
-#Conclusies en Advies
+# Conclusies en Advies
 Op basis van de analyse in de verschillende notebooks concluderen we dat het piloten tekort een urgent probleem is dat in de toekomst waarschijnlijk zal verergeren zonder interventie. De voorspellingen laten zien dat er een aanzienlijke daling in het pilotenbestand wordt verwacht. Daarom adviseren we verder onderzoek naar wervingsstrategieën en het ontwikkelen van retentieplannen om het verwachte tekort aan te pakken.
